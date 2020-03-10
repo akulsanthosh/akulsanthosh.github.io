@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 640px) {
+
+    #main_container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 960;
+        min-height: 100vh;
+    }
+
+    .sectionContainer {
+        margin-bottom: 40;
+    }
+    
+    .sectionTitle {
+        padding: 5 5 20 5;
+        font-size: 30px;
+        font-weight: 700;
+        color: #41424a;
+    
+    }
+    
+    .itemContainer {
+        margin-bottom: 20;
+    }
+    
+    .itemTitle {
+        font-size: 22px;
+        padding: 10 5;
+        font-weight: 500;
+    }
+    
+    .itemSubTitle {
+        font-size: 18px;
+        padding: 0 5;
+        font-weight: 400;
+    
+    }
+    
+    .itemDate {
+        padding: 0 5;
+        font-size: 18px;
+        font-weight: 400;
+        justify-self: right;
+    }
+    
+    .itemDescription {
+        padding: 5;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        text-rendering: optimizeLegibility;
+    }
+    
+    .itemSubContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .resume {
+        padding: 5 5 30 5;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .ulSocial li {
+        list-style-type: none;
+    }
+    
+    .ulSocial {
+        padding-inline-start: 0px;
+    }
+
+    .homeLinkContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10;
+    }
+
+    .homeSocialContainer {
+        justify-self: right;
+    }
+
+    .homeContainer {
+        margin: 70 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .homeImageContainer img {
+        width: 100%;
+        margin: 30 0 0 0;
+    }
+
+    .homeTitleContainer {
+        margin: 10;
+    }
+
+    .title h1{
+        font-size: 42;
+        margin: 25 5 0 0;
+        color: #41424a;
+    }
+
+    .desc p {
+        font-size: 16;
+        margin: 25 5 0 0;
+    }
+
+
+    .overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-y: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+      }
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .overlay {overflow-y: auto;}
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+        }
+      }
+
+    .menuContainer {
+        max-width: 960;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menuContainer p {
+        font-size: 30;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    .menuContainer span {
+        justify-self: right;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    #columns {
+        column-width: 320px;
+        column-gap: 15px;
+      width: 90%;
+        max-width: 1100px;
+        margin: 50px auto;
+    }
+    
+    div#columns figure {
+        background: #fefefe;
+        border: 2px solid #fcfcfc;
+        box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+        margin: 0 2px 15px;
+        padding: 15px;
+        padding-bottom: 10px;
+        transition: opacity .4s ease-in-out;
+      display: inline-block;
+      column-break-inside: avoid;
+    }
+    
+    div#columns figure img {
+        width: 100%; height: auto;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    
+    div#columns figure figcaption {
+      font-size: .9rem;
+        color: #444;
+      line-height: 1.5;
+    }
+    
+    div#columns small { 
+      font-size: 1rem;
+      float: right; 
+      text-transform: uppercase;
+      color: #aaa;
+    } 
+    
+    div#columns small a { 
+      color: #666; 
+      text-decoration: none; 
+      transition: .4s color;
+    }
+    
+    div#columns:hover figure:not(:hover) {
+        opacity: 0.4;
+    }
+    
+    @media screen and (max-width: 750px) { 
+      #columns { column-gap: 0px; }
+      #columns figure { width: 100%; }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    #main_container {
+        position: relative;
+        margin: 0 10;
+        max-width: 960;
+        min-height: 100vh;
+    }
+
+    .sectionContainer {
+        margin-bottom: 25;
+    }
+
+    .sectionTitle {
+        padding: 5 0;
+        font-size: 24px;
+        font-weight: 700;
+        color: #41424a;
+    }
+
+    .itemContainer {
+        margin-bottom: 20;
+    }
+
+    .itemTitle {
+        font-size: 20px;
+        padding: 5 0;
+        font-weight: 500;
+    }
+    
+    .itemSubTitle {
+        font-size: 16px;
+        padding: 0 0 3 0;
+        font-weight: 400;
+    
+    }
+    
+    .itemDate {
+        padding: 0 0 5 0;
+        font-size: 16px;
+        font-weight: 400;
+        justify-self: right;
+    }
+
+    .itemDescription {
+        padding: 3 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        text-rendering: optimizeLegibility;
+    }
+
+    .resume {
+        padding: 10 0;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .ulSocial li {
+        list-style-type: none;
+    }
+    
+    .ulSocial {
+        padding-inline-start: 0px;
+    }
+
+    .homeLinkContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10;
+    }
+
+    .homeAddressContainer {
+        font-size: 15;
+    }
+
+    .homeSocialContainer {
+        justify-self: right;
+        font-size: 15;
+    }
+
+    .homeImageContainer {
+        display: none;
+    }
+
+    .title h1{
+        font-size: 40;
+        margin-block-end: 0;
+        color: #41424a;
+    }
+
+    .overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-y: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+      }
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .overlay {overflow-y: auto;}
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+        }
+      }
+
+      #columns {
+        column-width: 320px;
+        column-gap: 15px;
+      width: 90%;
+        max-width: 1100px;
+        margin: 50px auto;
+    }
+    
+    div#columns figure {
+        background: #fefefe;
+        border: 2px solid #fcfcfc;
+        box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+        margin: 0 2px 15px;
+        padding: 15px;
+        padding-bottom: 10px;
+        transition: opacity .4s ease-in-out;
+      display: inline-block;
+      column-break-inside: avoid;
+    }
+    
+    div#columns figure img {
+        width: 100%; height: auto;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    
+    div#columns figure figcaption {
+      font-size: .9rem;
+        color: #444;
+      line-height: 1.5;
+    }
+    
+    div#columns small { 
+      font-size: 1rem;
+      float: right; 
+      text-transform: uppercase;
+      color: #aaa;
+    } 
+    
+    div#columns small a { 
+      color: #666; 
+      text-decoration: none; 
+      transition: .4s color;
+    }
+    
+    div#columns:hover figure:not(:hover) {
+        opacity: 0.4;
+    }
+    
+    @media screen and (max-width: 750px) { 
+      #columns { column-gap: 0px; }
+      #columns figure { width: 100%; }
+    }
+
+    .menuContainer {
+        max-width: 960;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menuContainer p {
+        font-size: 30;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    .menuContainer span {
+        justify-self: right;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+}
