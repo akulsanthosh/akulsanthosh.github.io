@@ -26,7 +26,7 @@ a {
     
     .sectionTitle {
         padding: 5 5 20 5;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 700;
         color: #41424a;
     
@@ -178,7 +178,8 @@ a {
     }
 
     .menuContainer p {
-        font-size: 30;
+        font-size: 40px;
+        font-weight: 700;
         align-self: center;
         margin-left: 10px;
     }
@@ -247,6 +248,7 @@ a {
 
 @media only screen and (max-width: 640px) {
 
+
     #main_container {
         position: relative;
         margin: 0 10;
@@ -302,6 +304,7 @@ a {
         font-weight: 400;
     }
 
+
     .ulSocial li {
         list-style-type: none;
     }
@@ -312,7 +315,7 @@ a {
 
     .homeLinkContainer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 10;
     }
 
@@ -321,7 +324,6 @@ a {
     }
 
     .homeSocialContainer {
-        justify-self: right;
         font-size: 15;
     }
 
@@ -330,7 +332,7 @@ a {
     }
 
     .title h1{
-        font-size: 40;
+        font-size: 30;
         margin-block-end: 0;
         color: #41424a;
     }
@@ -445,17 +447,18 @@ a {
         max-width: 960;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 80% 20%;
     }
 
     .menuContainer p {
         font-size: 30;
+        font-weight: 700;
         align-self: center;
         margin-left: 10px;
     }
 
     .menuContainer span {
-        justify-self: right;
+        justify-self: center;
         align-self: center;
         margin-right: 10px;
     }

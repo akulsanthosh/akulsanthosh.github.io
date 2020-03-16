@@ -46,7 +46,7 @@ function homepage(data) {
     document.getElementById("main_container").innerHTML = htmlString;
 }
 
-// homepage(data.Home)
+homepage(data.Home)
 
 
 function cvpage(data) {

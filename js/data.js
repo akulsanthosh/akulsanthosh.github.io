@@ -55,8 +55,8 @@ let data = {
                 "convai": {
                     "title": "Convai - Conversational OS",
                     "subtitle": "Final Year Project",
-                    "date": "2019 - 2020",
-                    "description": "A conversational web based OS that works on simple voice commands. The OS modules include UI building developer tools, schema to define data and ui interaction, inbuild handlers for small talk, smart intent mapping to select between multiple application, and graphical UI support. This project was designed such that it would be natively accessible for the visual impaired.<br><br><b>Demo : </b>Work in Progress."
+                    "date": "2020",
+                    "description": "A conversational web based OS that works on simple voice commands. The OS modules include UI building developer tools, schema to define data and ui interaction, inbuild handlers for small talk, smart intent mapping to select between multiple application, and graphical UI support. This project was designed such that it would be natively accessible for the visual impaired.<br><br><b>Demo : </b>Work in Progress"
                 },
                 "semantic": {
                     "title": "Semantic Lab",
@@ -85,7 +85,7 @@ let data = {
                 "NoQStore": {
                     "title": "NoQStore - Cost effective Amazon Go",
                     "subtitle": "Techstars Startup Weekend",
-                    "date": "2017",
+                    "date": "2018",
                     "description": "Created a model of Amazon Go with cheaper components and voice guided systems, load cells and mobile cameras where used to create the functionality. Created during Techstars Startup Weekend hackathon where this project won most innovative product award.<br><br><b>Github : </b><a href='https://github.com/akulsanthosh/noQ'>Repository</a>"
                 }
             },
@@ -106,63 +106,87 @@ let data = {
                     "title": "Founder and Organiser",
                     "subtitle": "Make-a-Ton Hackathon",
                     "date": "2018 - 2020",
-                    "description": ""
+                    "description": "Coordinated and planned entire event flow including sponsorships, partnerships, fund management, outreach, technical management, media interaction, selecting judges, themes and activities."
                 },
                 "aws": {
                     "title": "Social Media Manager and Guest Coordinator",
                     "subtitle": "AWS Community Day",
                     "date": "2019",
                     "description": ""
+                },
+                "flood": {
+                    "title": "Volunteer",
+                    "subtitle": "Kerala Flood Relief",
+                    "date": "2018",
+                    "description": "Coordinated logistics in transporting and managing 5000 students to nearly 10000 affected homes. Special recognition from the Government of Kerala and one among the 14 students from Kerala to be awarded for the same."
                 }
             },
             "Achievments/Certifications": {
-                "listitem1": {
-                    "title": "Hindustan Aeronautics Limited",
-                    "subtitle": "Intern for Information Technology Division",
-                    "date": "May 2018 - June 2018",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ipsum quis risus pellentesque vehicula efficitur quis velit. Maecenas interdum lorem diam. Quisque laoreet dictum vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam a ante vel sapien blandit consequat. Suspendisse non eleifend dolor. Donec aliquet, mauris eget porta semper, tortor felis pharetra orci, nec iaculis metus enim at felis. Suspendisse eleifend eleifend quam, quis viverra ipsum fringilla ac. Nullam euismod facilisis tellus, ac finibus nisi ornare pellentesque. Morbi non lectus sed nisi porta venenatis at nec quam. Mauris diam nibh, feugiat nec orci vel, efficitur facilisis magna. Duis risus mi, pharetra vitae ornare sed, faucibus a sapien."
+                "coursera1": {
+                    "title": "How Google does Machine Learning",
+                    "subtitle": "Coursera 6QM69Q2M9VPM",
+                    "date": "2019",
+                    "description": ""
                 },
-                "listitem2": {
-                    "title": "Hindustan Aeronautics Limited",
-                    "subtitle": "Intern for Information Technology Division",
-                    "date": "May 2018 - June 2018",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ipsum quis risus pellentesque vehicula efficitur quis velit. Maecenas interdum lorem diam. Quisque laoreet dictum vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam a ante vel sapien blandit consequat. Suspendisse non eleifend dolor. Donec aliquet, mauris eget porta semper, tortor felis pharetra orci, nec iaculis metus enim at felis. Suspendisse eleifend eleifend quam, quis viverra ipsum fringilla ac. Nullam euismod facilisis tellus, ac finibus nisi ornare pellentesque. Morbi non lectus sed nisi porta venenatis at nec quam. Mauris diam nibh, feugiat nec orci vel, efficitur facilisis magna. Duis risus mi, pharetra vitae ornare sed, faucibus a sapien."
+                "coursera2": {
+                    "title": "Intro to Tensor Flow",
+                    "subtitle": "Coursera Q35U2Q8X7S3Z",
+                    "date": "2019",
+                    "description": ""
                 },
-                "listitel3": {
-                    "title": "Hindustan Aeronautics Limited",
-                    "subtitle": "Intern for Information Technology Division",
-                    "date": "",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ipsum quis risus pellentesque vehicula efficitur quis velit. Maecenas interdum lorem diam. Quisque laoreet dictum vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam a ante vel sapien blandit consequat. Suspendisse non eleifend dolor. Donec aliquet, mauris eget porta semper, tortor felis pharetra orci, nec iaculis metus enim at felis. Suspendisse eleifend eleifend quam, quis viverra ipsum fringilla ac. Nullam euismod facilisis tellus, ac finibus nisi ornare pellentesque. Morbi non lectus sed nisi porta venenatis at nec quam. Mauris diam nibh, feugiat nec orci vel, efficitur facilisis magna. Duis risus mi, pharetra vitae ornare sed, faucibus a sapien."
+                "coursera3": {
+                    "title": "Launching into Machine Learning",
+                    "subtitle": "Coursera ZE5KB7R4L8DR",
+                    "date": "2019",
+                    "description": ""
+                },
+                "nptel2": {
+                    "title": "Design and Analysis of Algorithms",
+                    "subtitle": "National Program for Technology Enchanced Learning",
+                    "date": "2019",
+                    "description": ""
+                },
+                "ibm": {
+                    "title": "Robotic Behavior Driven by Machine Learning",
+                    "subtitle": "IBM Research",
+                    "date": "2019",
+                    "description": ""
+                },
+                "nptel1": {
+                    "title": "Programming in C++",
+                    "subtitle": "National Program for Technology Enchanced Learning",
+                    "date": "2018",
+                    "description": "<b>Top 2% in final examination</b>"
                 }
             }
         }
-    },
-    "Moments": {
-        "image1": {
-            "title": "my photo",
-            "url": "https://share.getcloudapp.com/items/DOu8D5YZ/download"
-        },
-        "image2": {
-            "title": "my photo",
-            "url": "https://share.getcloudapp.com/items/DOu8D5YZ/download"
-        }
-        // "image5": {
-        //     "title": "",
-        //     "url": ""
-        // },
-        // "image6": {
-        //     "title": "",
-        //     "url": ""
-        // },
-        // "image7": {
-        //     "title": "",
-        //     "url": ""
-        // },
-        // "image8": {
-        //     "title": "",
-        //     "url": ""
-        // }
     }
+    // "Moments": {
+    //     "image1": {
+    //         "title": "my photo",
+    //         "url": "https://share.getcloudapp.com/items/DOu8D5YZ/download"
+    //     },
+    //     "image2": {
+    //         "title": "my photo",
+    //         "url": "https://share.getcloudapp.com/items/DOu8D5YZ/download"
+    //     },
+    //     "image5": {
+    //         "title": "",
+    //         "url": ""
+    //     },
+    //     "image6": {
+    //         "title": "",
+    //         "url": ""
+    //     },
+    //     "image7": {
+    //         "title": "",
+    //         "url": ""
+    //     },
+    //     "image8": {
+    //         "title": "",
+    //         "url": ""
+    //     }
+    // }
     // "Blog": {
     //     "title": "Check back soon"
     // }
