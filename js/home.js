@@ -99,7 +99,7 @@ function cvpage(data) {
     document.getElementById("main_container").innerHTML = htmlString;
 }
 
-cvpage(data.CV)
+// cvpage(data.CV)
 
 function momentspage(data) {
     var string = ``
