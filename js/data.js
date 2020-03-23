@@ -62,31 +62,31 @@ let data = {
                     "title": "Semantic Lab",
                     "subtitle": "Wipro IoT Lab",
                     "date": "2019",
-                    "description": "A semantic system that can control the IoT sensors, autoregister and provide internet based command line interface. The system is natively conversational and can be integrated with popular voice agents like Google Home, Amazon Alexa etc.<br><br><b>Demo : </b><a href='https://www.youtube.com/watch?v=4MyNWBz7s_0'>Video</a>"
+                    "description": "A semantic system that can control the IoT sensors, autoregister and provide internet based command line interface. The system is natively conversational and can be integrated with popular voice agents like Google Home, Amazon Alexa etc.<br><br><b>Demo : </b><a href='https://www.youtube.com/watch?v=4MyNWBz7s_0' target='_blank'>Video</a>"
                 },
                 "iris": {
                     "title": "Iris - Conversational email generator",
                     "subtitle": "AngelHack Hackathon Bangalore",
                     "date": "2019",
-                    "description": "A dialogflow based conversational system that generates email based on user responses. The system is customisable and has a  NLP system to generate queries inorder to understand user intention.<br><br><b>Demo : </b><a href='#'>Video</a>"
+                    "description": "A dialogflow based conversational system that generates email based on user responses. The system is customisable and has a  NLP system to generate queries inorder to understand user intention.<br><br><b>Demo : </b><a href='#' target='_blank'>Video</a>"
                 },
                 "arware": {
                     "title": "ARware",
                     "subtitle": "Minor Project",
                     "date": "2019",
-                    "description": "An iOS application to virtually try on shoes in real time, combining AR and ML. The dataset was created using various foot semantic labelled images to train a semantic segmentation model for detection and understanding of foot orientation. The 3D model of the shoe was then augmented using ARKit. Real time augmentation was achieved by optimising the pipeline including dropping frames based on analysing change in camera feed.<br><br><b>Demo : </b><a href='#'>Video</a>"
+                    "description": "An iOS application to virtually try on shoes in real time, combining AR and ML. The dataset was created using various foot semantic labelled images to train a semantic segmentation model for detection and understanding of foot orientation. The 3D model of the shoe was then augmented using ARKit. Real time augmentation was achieved by optimising the pipeline including dropping frames based on analysing change in camera feed."
                 },
                 "PillD": {
                     "title": "PillD - Intelligent Pill Dispenser",
                     "subtitle": "Wipro Industrail IoT Hackathon",
                     "date": "2019",
-                    "description": "An intelligent pill dispensor with alexa, a deep learning model analyses health data, makes intelligent predictions and dispenses pills. The system works using live data from various health sensors, prescriptions and historical data models.<br><br><b>Demo : </b><a href='#'>Video</a>"
+                    "description": "An intelligent pill dispensor with alexa, a deep learning model analyses health data, makes intelligent predictions and dispenses pills. The system works using live data from various health sensors, prescriptions and historical data models.<br><br><b>Demo : </b><a href='https://youtu.be/0OaMeKgwSkw' target='_blank'>Video</a>"
                 },
                 "NoQStore": {
                     "title": "NoQStore - Cost effective Amazon Go",
                     "subtitle": "Techstars Startup Weekend",
                     "date": "2018",
-                    "description": "Created a model of Amazon Go with cheaper components and voice guided systems, load cells and mobile cameras where used to create the functionality. Created during Techstars Startup Weekend hackathon where this project won most innovative product award.<br><br><b>Github : </b><a href='https://github.com/akulsanthosh/noQ'>Repository</a>"
+                    "description": "Created a model of Amazon Go with cheaper components and voice guided systems, load cells and mobile cameras where used to create the functionality. Created during Techstars Startup Weekend hackathon where this project won most innovative product award.<br><br><b>Github : </b><a href='https://github.com/akulsanthosh/noQ' target='_blank'>Repository</a>"
                 }
             },
             "Leadership/Volunteering": {
