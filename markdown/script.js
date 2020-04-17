@@ -14,6 +14,7 @@ function createSteps(board) {
         string = string + `<a href="javascript:void(0)" onclick="createMarkdown('` + board + `','` + data[board][element] + `')"> ` + element + `</a><br>`
     })
     document.getElementById("step").innerHTML = string
+    createMarkdown(board, data[board]['step1.md'])
 }
 
 function createMarkdown(board, data) {
