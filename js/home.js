@@ -4,7 +4,7 @@ function menuBuilder(data) {
     var string = ``
     var a = 0
     Object.keys(data).forEach(element => {
-        string = string + `<a href="javascript:void(0)" onclick="pageshow(` + a + `)">` + element + `</li>`
+        string = string + `<a href="javascript:void(0)" onclick="pageshow(` + a + `)">` + element + `</a>`
         a = a + 1
     });
     let htmlString = `
