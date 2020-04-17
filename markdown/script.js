@@ -38,8 +38,8 @@ function createMarkdown(board, data) {
 
 function setup(data) {
     createBoards(data)
-    // createSteps(data["board1"])
-    // createMarkdown("board1", data["board1"]["step1.md"])
+    createSteps(data["board1"])
+    createMarkdown("board1", data["board1"]["step1.md"])
 }
 
 setup(data)
