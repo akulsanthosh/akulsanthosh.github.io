@@ -16,7 +16,7 @@ function createSteps() {
                         text = contents,
                         html = convertor.makeHtml(text)
 
-                    markdown = markdown + html
+                    markdown = markdown + `<a name="` + element + `">` + html + `</a>`
                     document.getElementById("markdown").innerHTML = markdown
                 }
                 r.readAsText(blob);
