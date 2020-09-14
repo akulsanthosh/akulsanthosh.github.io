@@ -1,7 +1,7 @@
 let data = {
     "Home": {
         "title": "Hi I am Akul Santhosh",
-        "image": "<img src='https://share.getcloudapp.com/items/DOu8D5YZ/download'>",
+        "image": "<img src='https://share.getcloudapp.com/DOu8D5YZ/download/profile.JPG'>",
         "description": "I am a final year B.Tech student in the Division of Computer Science at School of Engineering CUSAT. I have cofounded a startup 'Trebuchet' that tries to bridge the gap between customer and online shopping using Augmented Reality and Machine Learning. The startup is currently incubated at CITTIC and has recieved funding through Idea Day Grant by Kerala Startup Mission.<br><br>Apart from this I enjoy organising tech events and hackathons, I have succesfully founded the hackathon 'Make-a-Ton', which has now grown into became one of India's best college hackathons.",
         "address": "102B Malacheri Veedu<br>Bodhi Nagar Palathara<br>Thattamala Kollam<br>Kerala IN 691020",
         "social": {
