@@ -20,7 +20,7 @@ let data = {
                     "title": "Cochin University of Science and Technology",
                     "subtitle": "Bachelor of Technology in Computer Science",
                     "date": "August 2016 - May 2020",
-                    "description": "<b>CGPA - 9.0 /10, Ranked 7th in class.</b> <br>Core Courses:- Operating System, Algorithms, Data Structures, Object Oriented Programming Language, Computer Architecture and Organisation, Principles of Programming Languages, Data Mining, Graphics, Automata Languages."
+                    "description": "<b>CGPA - 9.16 /10, Ranked 7th in class.</b> <br>Core Courses:- Operating System, Algorithms, Data Structures, Object Oriented Programming Language, Computer Architecture and Organisation, Principles of Programming Languages, Data Mining, Graphics, Automata Languages."
                 }
             },
             "Startup": {
